@@ -8,8 +8,8 @@ import {IDataGithub} from "./models/data";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
-   @Input() data: IDataGithub | any
 
+  data: IDataGithub;
 
   constructor(private githubService: GithubService) {
   }

@@ -10,7 +10,7 @@ export class GithubService {
 
   constructor(private http: HttpClient) { }
 
-  getAll(): Observable<IDataGithub> {
+  public getAll(): Observable<IDataGithub> {
     return this.http.get<IDataGithub>('https://api.github.com/users/DenysSkobalo');
   }
 
