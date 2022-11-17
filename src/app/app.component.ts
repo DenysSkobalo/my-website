@@ -10,15 +10,15 @@ import {IDataGithub} from "./models/data";
 
 export class AppComponent implements OnInit{
 
-  data: IDataGithub;
-
-  constructor(private githubService: GithubService) { }
+  // data: IDataGithub;
+  //
+  // constructor(private githubService: GithubService) { }
 
   ngOnInit(): void {
-    this.githubService.getAll().subscribe(data => {
-      // console.log(data);
-      this.data = data;
-    })
+    // this.githubService.getAll().subscribe(data => {
+    //   // console.log(data);
+    //   this.data = data;
+    // })
   }
 }
 
