@@ -8,6 +8,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { GithubComponent } from './components/github/github.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MainComponent } from './pages/main/main.component';
+import { AboutMeComponent } from './pages/about-me/about-me.component';
+import { AboutGithubComponent } from './pages/about-github/about-github.component';
+
 
 @NgModule({
   declarations: [
@@ -16,6 +20,9 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutComponent,
     GithubComponent,
     FooterComponent,
+    MainComponent,
+    AboutMeComponent,
+    AboutGithubComponent,
   ],
   imports: [
     BrowserModule,
