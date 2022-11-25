@@ -8,6 +8,8 @@ import {GithubService} from "../../services/github.service";
 })
 export class GithubComponent implements OnInit {
 
+  link: string = 'https://github.com/DenysSkobalo';
+
   data: IDataGithub;
 
   constructor(private githubService: GithubService) { }

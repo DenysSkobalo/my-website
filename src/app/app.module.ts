@@ -10,8 +10,8 @@ import { GithubComponent } from './components/github/github.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MainComponent } from './pages/main/main.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
-import { AboutGithubComponent } from './pages/about-github/about-github.component';
-
+import { HomeComponent } from './components/home/home.component';
+import { WorkComponent } from './pages/work/work.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,8 @@ import { AboutGithubComponent } from './pages/about-github/about-github.componen
     FooterComponent,
     MainComponent,
     AboutMeComponent,
-    AboutGithubComponent,
+    HomeComponent,
+    WorkComponent,
   ],
   imports: [
     BrowserModule,
